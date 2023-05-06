@@ -1,0 +1,60 @@
+.about-us-container {
+    height: 70vh;
+    background-color: #fff;
+}
+
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+
+.about-us-left, .about-us-right {
+    width: 50%;
+    height: 100%;
+}
+
+.about-us-right {
+    border-left: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-right-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pageMargin);
+    width: 80%;
+}
+
+
+.about-us-content-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+.about-us-content-title {
+    font-size: 2rem;
+    margin-bottom: var(--pageMargin);
+}
+
+.about-us-content-date span {
+    font-size: 8.5rem;
+    font-weight: 600;
+    font-family: 'Ysabeau';
+    background-color: var(--secondary);
+    background-image: url(../../../../public/assets/img/orange_gradient.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}

@@ -1,0 +1,46 @@
+.page-header {
+    padding: var(--pageMargin);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.page-header-logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.page-header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--navLinksMargin);
+}
+
+.page-header-link {
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.page-header-link:hover {
+    color: #000;
+}
+
+.page-header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page-header-search__input {
+    padding: 10px;
+    background-color: #f2f2f2f2;
+    border: 1px solid #f2f2f2f2;
+    border-radius: 5px;
+    width: 290px;
+    font-size: 18px;
+    font-family: 'Ysabeau';
+    font-weight: 600;
+    font-style: italic;
+    outline: none;
+}

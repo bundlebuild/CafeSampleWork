@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "GT America";
+    src: local('GT America'), url(./GTAmerica-ExtendedRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "GT America";
+    font-weight: 500;
+    src: local('GT America'), url(./GTAmerica-ExtendedRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 600;
+    src: local('GT America'), url(./GTAmerica-ExpandedBlack.ttf) format('truetype');
+}
