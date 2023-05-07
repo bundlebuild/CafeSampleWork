@@ -1,0 +1,38 @@
+.service-card {
+    width: 50%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-image {
+    text-align: center;
+    padding: 5px;
+}
+
+.service-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-content .service-card-heading {
+    text-align: center;
+    font-weight: 600;
+}
+
+.service-card-content .service-card-subheading {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media all and (max-width: 767px) {
+    .service-card {
+        width: 40%;
+    }
+}

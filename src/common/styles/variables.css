@@ -1,7 +1,9 @@
 :root {
     --primary: #F9E6D2;
     --darkPrimary: #ac8a66;
-    --secondary: #008080;
+    --secondary: #FF406C;
+    --darkSecondary: #d2113e;
+    --lightSecondary: #f9d8e0;
     --dark: #333;
     --mobile-bg: #0f0f0f0;
     --bg-red: rgba(238, 47, 75);

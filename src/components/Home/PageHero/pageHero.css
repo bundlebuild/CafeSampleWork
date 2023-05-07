@@ -1,16 +1,66 @@
 .page-hero-image {
     width: 100%;
-    height: 310px;
+    height: 355px;
     object-fit: cover;
+}
+
+.page-hero-container {
+    height: 355px;
 }
 
 .page-hero-content {
     padding: var(--maxMarginSpacing);
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: var(--primary);
     text-align: center;
+    color: #fff;
+    z-index: 1000;
+    position: relative;
+}
+
+@media all and (max-width: 767px) {
+    .page-hero-image-container {
+        background-position-y: 0px!important;
+
+    }
+
+    .page-hero-title {
+        font-size: 2em!important;
+        line-height: 50px!important;
+        text-align: left;
+    }
+
+    .page-hero-content {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+.page-hero-container {
+    background-color: #000;
+    opacity: 1;
+}
+
+.page-hero-image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 355px;
+    z-index: 1000;
+    opacity: 0.5;
+    background: linear-gradient(45deg, #000, #f36b89);
+}
+
+.page-hero-image-container {
+    background: url(../../../../public/assets/img/cafe_hero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: -500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 355px;
 }
 
 .page-hero-label {
@@ -23,6 +73,5 @@
     font-size: 3em;
     font-weight: 500;
     line-height: 70px;
-    font-family: 'Ysabeau';
     font-style: italic;
 }

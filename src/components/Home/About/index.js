@@ -4,9 +4,8 @@ import Transition from '../../AnimatedComponents/Transition';
 
 const About = () => {
   return (
-    <div className="about-us-container">
+    <div className="about-us-container" id="ABOUTUS">
         <div className="about-us-left">
-            <span>Left Content</span>
         </div>
         <div className="about-us-right">
             <div className="about-us-right-content">
@@ -19,6 +18,11 @@ const About = () => {
                 </div>
                 <div className="about-us-content-date">
                     <span>2013</span>
+                </div>
+                <div className="about-us-content-cta">
+                    <div className="btn-outline">
+                        See our story
+                    </div>
                 </div>
                 </Transition>
             </div>

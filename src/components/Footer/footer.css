@@ -1,0 +1,5 @@
+.page-footer {
+    background-color: var(--dark);
+    padding: var(--maxMarginSpacing);
+    color: #fff;
+}

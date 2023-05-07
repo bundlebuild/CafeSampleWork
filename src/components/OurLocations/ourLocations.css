@@ -1,0 +1,52 @@
+.our-locations-container {
+    background-color: #fff;
+    padding: var(--maxMarginSpacing);
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.our-locations-heading {
+    font-size: 2.5rem;
+    color: var(--dark);
+    font-weight: 600;
+    margin-bottom: var(--pageMargin);
+}
+
+.our-locations-subheading {
+    font-size: 1.8rem;
+    margin-bottom: var(--pageMargin);
+    font-style: italic;
+}
+
+.our-locations-items {
+    padding: var(--maxMarginSpacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--pageMargin);
+}
+
+.our-locations-items .our-location-item {
+    width: 50%;
+}
+
+.our-locations-icon img {
+    width: 150px;
+}
+
+.calm-font {
+    font-family: 'Ysabeau';
+}
+
+@media all and (max-width: 767px) {
+    .our-locations-items .our-location-item {
+        width: 100%;
+    }
+
+    .our-locations-items {
+        padding: 0px!important;
+        margin: var(--pageMargin)!important;
+    }
+}
