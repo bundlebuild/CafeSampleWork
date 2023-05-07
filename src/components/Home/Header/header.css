@@ -56,6 +56,16 @@
     align-items: center;
 }
 
+@media all and (max-width: 767px) {
+    .page-header-content {
+        align-items: flex-start;
+    }
+
+    .page-header-search {
+        width: 100%!important;
+    }
+}
+
 .page-header-search__input {
     padding: 10px;
     background-color: #f2f2f2f2;
