@@ -26,7 +26,6 @@ const OurLocations = () => {
     <div className="our-locations-section" id="OURLOCATIONS">
       <Transition className="our-locations-container">
         <div className="our-locations-icon">
-          <img src="assets/img/clue_paws.png" />
         </div>
         <div className="our-locations-heading">
           We wanna meet you!
