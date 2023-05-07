@@ -38,7 +38,7 @@
 }
 
 .about-us-left {
-    background-image: url(../../../../docs/assets/img/about_us_image.jpg);
+    background-image: url(../../../../public/assets/img/about_us_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

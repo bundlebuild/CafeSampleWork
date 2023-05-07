@@ -53,7 +53,7 @@
 }
 
 .page-hero-image-container {
-    background: url(../../../../docs/assets/img/cafe_hero.jpg);
+    background: url(../../../../public/assets/img/cafe_hero.jpg);
     background-size: cover;
     background-position: bottom;
     background-position-y: -500px;
