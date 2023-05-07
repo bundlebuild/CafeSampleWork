@@ -7,17 +7,11 @@ const Header = () => {
         setOpen(!open);
         if(type == "ABOUT_US") {
             window.location = "#ABOUTUS";
-        }
-
-        if(type == "TIMELINE") {
+        } else if(type == "TIMELINE") {
             window.location = "#TIMELINE";
-        }
-
-        if(type == "OUR_SERVICES") {
+        }else if(type == "OUR_SERVICES") {
             window.location = "#OURSERVICES";
-        }
-
-        if(type == "OUR_LOCATIONS") {
+        }else if(type == "OUR_LOCATIONS") {
             window.location = "#OURLOCATIONS";
         }
     }
